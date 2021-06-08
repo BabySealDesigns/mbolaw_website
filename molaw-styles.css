@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.row {
+    /*    background-color: rgb(228, 218, 204);  */
+}
+
+.page-frame {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin-left: 150px;
+}
+
+.footer-frame {
+    background-color: transparent;
+    width: 80%;
+    height: 100%;
+    margin-left: 150px;
+}
+
+
+/* HTML Elements */
+
+.col-xs-equal,
+.col-sm-equal,
+.col-md-equal,
+.col-lg-equal {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/* Next,we are adding here some media queries with various breakpoints  */
+
+.col-xs-equal {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-equal {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-equal {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-equal {
+        width: 20%;
+        float: left;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, Garamond, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    margin: 0;
+}
+
+em {
+    font-size: .75rem;
+    margin-left: 50%;
+    text-align: center;
+}
+
+
+/* Header Section */
+
+#header {
+    /* padding: 2% 0; */
+    background-color: #f1e7ce;
+}
+
+.header-contactinfo {
+    font-size: 1.25rem;
+    text-align: right;
+    padding-top: 10%;
+    line-height: 1.5;
+    color: #21628D;
+}
+.header-mboimg {
+   padding-top: 5%;
+}
+
+.mbologo {
+    color: #21628D;
+    text-align: initial;
+}
+
+
+/* Navigation Section  */
+
+.navbar {
+    padding: .5rem 0;
+}
+
+
+/* .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 10%;
+
+} */
+
+.nav-item {
+    padding: 0 40px;
+    font-size: 1.2rem;
+}
+
+.navbar-nav {
+    margin: 0 5% 0 5%;
+}
+
+
+/* Specific Page Content */
+
+.img-landing {
+    margin: 0;
+    padding: 0;
+}
+
+#landing-page{
+    text-align: center;
+    padding-top: 2%;
+    background-color: #f1e7ce;
+}
+
+.jumbotron {
+   background-color: #f1e7ce;
+   margin-top: 0;
+   padding-top: 0;
+}
+
+/* Practice Area Section */
+
+#practice-areas {
+    padding: 2px;
+    background-color: #f1e7ce;
+    display: inline-flex;
+}
+
+.practice-area-column {
+    padding: 3% 2%;
+}
+
+.practice-area-text {
+    font-size: .87rem;
+    line-height: 1.5;
+    /* height: 80px; */
+}
+
+.practice-area-header {
+    font-size: .85rem;
+}
+
+.practice-area-images {
+    width: 95%;
+    padding-bottom: 10%;
+}
+
+.practice-area-cards {
+    padding-left: 2%;
+}
+
+.card {
+    height: 25rem;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #f1e7ce;
+    height: 300px
+}
+
+#testimonial-carousel {
+    background-color: #f1e7ce;
+}
+
+.testimonial-text {
+    font-size: .87rem;
+    line-height: 1.5;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    padding-top: 1%;
+}
+
+.testimonial-title {
+    text-align: center;
+    color: #9f684a;
+    padding-top: 1%;
+}
+
+.carousel-item {
+    height: 15rem;
+}
+
+
+/* Footer Section */
+
+.footer-frame {
+    background-color: #9f684a;
+    width: 80%;
+    margin-left: 150px;
+}
+
+#footer {
+    background-color: #9f684a;
+    text-align: center;
+}
+
+.footer-mbo {
+    text-align: center;
+    padding-left: 10%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-address {
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+    margin-top: 0;
+}
+
+
+/* .social-media {
+   padding-top: 5%;
+} */
+
+.footer-info {
+    padding-top: 2%;
+}
+
+.disclaimer {
+    font-size: .75rem;
+    padding: 2% 3% 2%;
+    text-align: left;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    font-size: .75rem;
+    padding: 0px 0px 10px 0px;
+    color: white;
+}
+
+.cc-image {
+    width: 25%;
+}
+
+.cc-text {
+    padding-top: 5%;
+    color: white;
+    font-size: .90rem;
+}
+
+.list-group {
+    margin: 0;
+}
+
+.list-group-item {
+    font-size: .70rem;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+}
+
+.page-links {
+    color: #9f684a;
+    margin-left: 150px;
+    width: 82%;
+}
+
+.bi {
+    color: white;
+    font-size: 2rem;
+}
