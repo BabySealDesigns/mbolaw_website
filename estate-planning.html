@@ -21,6 +21,13 @@
     <!-- Website Style Sheet -->
     <link rel="stylesheet" href="css/molaw-styles.css">
 
+
+    <!-- Favicon for website 
+    <link rel="icon" href="http://www.margoowenlaw.com/favicon.png">
+    -->
+    <link rel="icon" href="favicon.png">
+
+
 </head>
 
 <body>
@@ -100,19 +107,44 @@
     <section id="page-section">
         <div class="container-fluid">
             <div class="row section-frame">
-                <div class="col-lg-8">
-                     <h2 class="page-section-title"> Estate Planning </h2>
-                      <p> <span class="update-text">(Note:  Need to Update this text)</span><br>Estate Planning is not complicated<br>To guarantee your loved ones the right to inherit any portion of your estate upon your 
-                      death, you must execute a legally binding Last Will and Testament. This document gives your specific wishes a legal voice. 
-                      You will be able to name the exact people to whom you wish to give your assets, the people to raise your children and the 
-                      manner in which to dispose of your property. You also can make arrangements to minimize estate taxes, leaving the largest
-                       asset amounts possible for your heirs. In addition, your will protects your loved ones from a costly 
-                       administrative nightmares and undeserved added emotional turmoil. It is also important to specify your burial 
-                       preferences in your will to guarantee your wishes are carried out. Finally, be sure to talk to Margo if you wish to be 
-                       an organ donor and take this often stressful decision out of your loved ones’ hands.<br>Short description to describe each type of service</p>
+                <div class="col-lg-8 page-section-text">
+                     <h3 class="page-section-title"> Estate Planning </h3>
+                     <h3 class="page-section-title"> Estate Planning is not Complicated</h3><br>
+                      <p class="question">What is Estate Planning?</p>
+                      <p class="answer">Estate Planning is making a plan in advance, naming the people or organizations you want to 
+                      receive the things you own after you die, and taking steps now to make carrying out your plan as easy as possible 
+                      later. However, good estate planning is much more than that. It should also do the following: </p>
+                      <ul class="answer">
+                        <li>Include instructions for your care and financial affairs if you become incapacitated before you die</li>
+                        <li>Include arrangements for disability income insurance to replace your income if you cannot work due to 
+                        illness or injury, long-term care insurance to help pay for your care in case of an extended illness or injury, 
+                        and life insurance to provide for your family at your death</li>
+                        <li>Provide for the transfer of your business at your retirement, disability, incapacity, or death</li>
+                        <li>Name a guardian for your minor children’s care and inheritance</li>
+                        <li>Provide for family members with special needs without disqualifying them from government benefits</li>
+                        <li>Provide for loved ones who might be irresponsible with money or who may need protection from creditors or in the 
+                        event of divorce</li>
+                        <li>Minimize taxes, court costs, and unnecessary legal fees, which may include funding assets into a living 
+                        trust, completing or updating beneficiary designations, or otherwise aligning your assets with your estate plan</li>
+                      </ul>
+                    <p class="answer">Importantly, estate planning is also an ongoing process, not a one-time event. You should review and 
+                    update your plan as your family and financial circumstances (and the relevant laws) change over your lifetime.</p>
+                    <p class="question">What is an estate?</p>
+                    <p class="answer">An estate consists of everything on own, car, home, bank accounts (checking, savings), investment accounts, 
+                    retirement accounts (401ks, IRAs), life insurance, and personal possessions.</p>
+                    <p class="question">Do I have an estate?</p>
+                    <p class="answer">Everyone has an estate regardless of size.  Your estate maybe small or it may be very large.  Remember 
+                    you can’t take it with you when you die.</p>
+                    <p class="question">Why do I need estate planning?</p>
+                    <p class="answer">Estate planning ensures your wishes are carried out after your death or if you are incapacitated.  It 
+                    ensures beneficiaries will receive what you wanted them to have with least amount of taxes, legal fees, and court costs.</p>
+                    <p class="question">When is the best time to do my estate plan?</p>
+                    <p class="answer">Now, it is never to early to establish an estate plan</p>
+                    <p class="question">What do I need to do to start estate planning?</p>
+                    <p class="answer">Schedule an consultation using the contact information below</p>
                 </div>
                 <div class="col-lg-4">
-                     <h2 class="page-section-title"> Services </h2>
+                     <h3 class="page-section-title"> Services </h3>
                      <ul class="list-group">
                         <li class="list-group-item services-list-group-item">Estate Planning</li>
                         <li class="list-group-item services-list-group-item">Estate Tax Planning</li>
@@ -134,90 +166,80 @@
 
     <section id="contact-section">
         <div class="container-fluid">
+            <div class="row contact-section-frame">
+                <div class="col-lg-4">
+                        <h4 class="form-title mb-2">CONTACT US<h4>
+                        <form class="needs-validation" novalidate >
+                            <div class="form-group col-auto">
+                                <label for="FirstName" class="col-form-label">First name:</label>
+                                <label class="required-field">*</label>
+                                <input type="text" class="form-control" id="FirstName" placeholder="First Name" required="true">
+                                <div class="invalid-feedback">
+                                     Please enter your First Name
+                                 </div>
+                            </div>
+                            
+                            <div class="form-group col-auto">
+                                <label for="LastName" class="col-form-label">Last name:</label>
+                                <label class="required-field">*</label>
+                                <input type="text" class="form-control" id="LastName" placeholder="Last Name" required="true">
+                                <div class="invalid-feedback">
+                                     Please enter your Last Name
+                                 </div>
+                            </div>
+
+                            <div class="form-group col-auto">
+                                <label for="EmailAddr" class="col-form-label">Email Address:</label>
+                                 <label class="required-field">*</label>
+                                 <input type="email" class="form-control" id="EmailAddr" aria-describedby="emailHelp" placeholder="name@example.com" required="true">
+                                 <div class="invalid-feedback">
+                                     Please enter your Email Address
+                                 </div>
+                            </div>
+                            
+                            <div class="form-group col-auto">
+                                <label for="PhoneNo" class="col-form-label">Contact Phone Number:</label>
+                                <label class="required-field">*</label>
+                                <input type="tel" class="form-control" id="PhoneNo" placeholder="555-555-1212" required="true">
+                                <div class="invalid-feedback">
+                                     Please enter your contact phone number
+                                 </div>
+                            </div> 
+                            
+                            
+                            <div class="form-group col-auto">
+                                <label class="my-1 mr-2 col-form-label" for="ConsultationType">Consultation Type (Optional)</label>
+                                    <select class="custom-select my-1 mr-sm-2" id="ConsultationType">
+                                        <option selected>Choose Consultation Type...</option>
+                                        <option value="ES">Estate Planning</option>
+                                        <option value="FL">Family Law</option>
+                                        <option value="CL">Collaborative Law</option>
+                                        <option value="LGBT">LGBTQ+</option>
+                                        <option value="GLS">General Legal Services</option>
+                                    </select>
+                            </div>
+                            
+                            <p class="required-field mb-4">* Denotes Required Fields</p>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            
+                          </form>  
+                </div>
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="form-title mb-3">600 CAMERON STREET<br>ALEXANDRIA, VA 22314<br>703-304-1622<h4>
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container-1" style="height: 400px">
+                        <iframe src="https://maps.google.com/maps?q=600 cameron street alexandria,va&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                            style="border:0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div> 
         </div>
     </section>
 
-    <section id="practice-areas">
-        <div class="container-fluid content-row">
-            <div class="row practice-area-cards page-frame">
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="practice-area-header  text-center">ESTATE PLANNING</h3>
-                        </div>
-                        <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/estate_planning1.jpg" alt="Estate Planning">
-                            <p class="practice-area-text">Estate Planning is critical to protecting you andd you family. </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="estate-planning.html">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="practice-area-header text-center">FAMILY LAW</h3>
-                        </div>
-                        <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/family_law5.jpg" alt="Family Law">
-                            <p class="practice-area-text">Experienced and knowledgeable for resovling all type of Family Law Issues</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="family-law.html">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="practice-area-header  text-center">COLLABORATIVE LAW</h3>
-                        </div>
-                        <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/collaborative-law.jfif" alt="Collaborative Law">
-                            <p class="practice-area-text">Experienced litigator that always puts the interest of her client first.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="collaborative-law.html">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="practice-area-header  text-center">LGBTQ+</h3>
-                        </div>
-                        <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/same_sex2.jpg" alt="LGBTQ+">
-                            <p class="practice-area-text">Experienced with resolving issues associated with Same Sex Couples and helping LGBTQ+ community</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="lbgtq.html">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="practice-area-header  text-center">GENERAL LEGAL SERVICES</h3>
-                        </div>
-                        <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/notary.jpg" alt="General Legal Services">
-                            <p class="practice-area-text">Experienced with issues associated with Same Sex Couples</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="general-legal.html">Read More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section id="testimonials">
         <div class="container-fluid">

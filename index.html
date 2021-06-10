@@ -21,27 +21,19 @@
     <!-- Website Style Sheet -->
     <link rel="stylesheet" href="css/molaw-styles.css">
 
+    <!-- Favicon for website 
+    <link rel="icon" href="http://www.margoowenlaw.com/favicon.png">
+    -->
+    <link rel="icon" href="favicon.png">
+
 </head>
 
 <body>
     <section id="header-navbar">
         <div class="container-fluid">
-            <header id="header">
-                <div class="row header-frame">
-                    <div class="col-lg-2">
-                        <img src="images/lady-justice-yellow.jpg" class="img-fluid mbo-logo" alt="Lady Justice">
-                    </div>
-                    <div class="col-lg-6 header-mboimg">
-                        <img src="images/MargoBOwen_Logo.jpg" class="img-fluid" alt="Margo B. Owen, Attorney and Counselor at Law">
-                    </div>
-                    <div class="col-lg-4">
-                        <h2 class="header-contactinfo">For a Consultation <br> <span> Call 703.340.1622</span> or<br> email <a href="mailto:info@margoowenlaw.com" target="_blank">info@margoowenlaw.com</a></h2>
-                    </div>
-                </div>
-
                 <!-- Naviation Bar Elements -->
                 <!-- style="background-color: #9f684a;" -->
-                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #9f684a;">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #9f684a;">
 
                     <!-- Text for Brand Logo.  Want this to be above the Navigation Bar  -->
                     <div class="navbar-header">
@@ -92,26 +84,41 @@
                         </form> -->
                     </div>
                 </nav>
+            <header id="header">
+               <div class="container-fluid">
+                <div class="row header-frame">
+                    <div class="col-lg-2">
+                        <img src="images/lady-justice-yellow.jpg" class="img-fluid mbo-logo" alt="Lady Justice">
+                    </div>
+                    <div class="col-lg-6 header-mboimg">
+                        <img src="images/MargoBOwen_Logo.jpg" class="img-fluid" alt="Margo B. Owen, Attorney and Counselor at Law">
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 class="header-contactinfo">For a Consultation <br> <span> Call 703.340.1622</span> or<br> email <a href="mailto:info@margoowenlaw.com" target="_blank">info@margoowenlaw.com</a></h2>
+                    </div>
+                </div>
+                </div>
             </header>
         </div>
     </section>
 
 
-    <section id="landing-page">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="jumbotron jumbotron-fluid">
-                        <img src="images/banner-legal2.jpg" class="img-fluid img-landing">
+    <section id="page-banner">
+       <div class="jumbotron jumbotron-fluid">
+           <div class="container-fluid">
+               <div class="row">
+                    <div class="col-lg-12">  
+                        <img src="images/banner-legal2.jpg" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <section id="practice-areas">
         <div class="container-fluid content-row">
-            <div class="row practice-area-cards page-frame">
+            <div class="row practice-area-cards card-group page-frame">
                 <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
                 col-xs-equal">
                     <div class="card">
@@ -190,6 +197,8 @@
             </div>
         </div>
     </section>
+
+
 
     <section id="testimonials">
         <div class="container-fluid">
