@@ -1,65 +1,45 @@
         @charset "utf-8";
         /* CSS Document */
         
-        hr {
-            display: block;
-            margin-top: 2.5em;
-            margin-bottom: 2.5em;
-            margin-left: auto;
-            margin-right: auto;
-            border-style: inset;
-            border-width: .5px;
-            background-color: #f1e7ce;
-        }
-        
-        .row {
-            /*    background-color: rgb(228, 218, 204);  */
-        }
-        
-        .page-frame {
-            background-color: #f1e7ce;
-            width: 80%;
-            height: 100%;
-            margin-left: 150px;
-        }
-        /* HTML Elements  for odd number of cards for grid*/
-        
-        .col-xs-equal,
-        .col-sm-equal,
-        .col-md-equal,
-        .col-lg-equal {
-            position: relative;
-            min-height: 1px;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        /* Next,we are adding here some media queries with various breakpoints  */
-        
-        .col-xs-equal {
-            width: 20%;
-            float: left;
-        }
-        
-        @media (min-width: 768px) {
-            .col-sm-equal {
-                width: 20%;
-                float: left;
+        @media (max-width: 576px) {
+            .xs {
+                color: red;
+                font-weight: bold;
             }
         }
+        /* Small devices (landscape phones, 576px and up) */
         
-        @media (min-width: 992px) {
-            .col-md-equal {
-                width: 20%;
-                float: left;
+        @media (min-width: 576px) and (max-width:768px) {
+            .sm {
+                color: red;
+                font-weight: bold;
             }
         }
+        /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+        
+        @media (min-width: 768px) and (max-width:992px) {
+            .md {
+                color: red;
+                font-weight: bold;
+            }
+        }
+        /* Large devices (desktops, 992px and up) */
+        
+        @media (min-width: 992px) and (max-width:1200px) {
+            .lg {
+                color: red;
+                font-weight: bold;
+            }
+        }
+        /* Extra large devices (large desktops, 1200px and up) */
         
         @media (min-width: 1200px) {
-            .col-lg-equal {
-                width: 20%;
-                float: left;
+            .xl {
+                color: red;
+                font-weight: bold;
             }
         }
+        /* HTML Elements  for odd number of cards for grid*/
         
         h1,
         h2,
@@ -147,6 +127,8 @@
         
         .banner-frame {
             position: relative;
+            padding: 0;
+            margin: 0;
         }
         
         .jumbotron {
@@ -154,6 +136,7 @@
             margin-top: 0;
             padding-top: 0;
             width: 100%;
+            height: auto;
         }
         
         #page-section {
@@ -175,6 +158,7 @@
             width: 80%;
             height: 100%;
             margin-left: 150px;
+            margin-top: 200px;
         }
         
         .services-list-group-item {
@@ -232,6 +216,21 @@
         }
         /* Practice Area Section */
         
+        .practice-area-frame {
+            background-color: #f1e7ce;
+            width: 80%;
+            height: 100%;
+            margin-left: 150px;
+            margin-top: 250px;
+        }
+        
+        .page-frame {
+            background-color: #f1e7ce;
+            width: 80%;
+            height: 100%;
+            margin-left: 150px;
+        }
+        
         #practice-areas {
             padding: 2px;
             background-color: #f1e7ce;
@@ -242,23 +241,9 @@
             padding: 3% 2%;
         }
         
-        .practice-area-text {
-            font-size: .87rem;
-            line-height: 1.5;
-            /* height: 80px; */
-        }
-        
-        .practice-area-header {
-            font-size: .85rem;
-        }
-        
         .practice-area-images {
             width: 95%;
             padding-bottom: 10%;
-        }
-        
-        .practice-area-cards {
-            padding-left: 2%;
         }
         
         .card {

@@ -30,11 +30,10 @@
 
 <body>
     <section id="header-navbar">
-        <div class="container-fluid">
-                <!-- Naviation Bar Elements -->
-                <!-- style="background-color: #9f684a;" -->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #9f684a;">
-
+        <!-- Naviation Bar Elements -->
+        <!-- style="background-color: #9f684a;" -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #9f684a;">
+              <div class="container-fluid">
                     <!-- Text for Brand Logo.  Want this to be above the Navigation Bar  -->
                     <div class="navbar-header">
                         <!-- <a class="navbar-brand" href="https://www.margoowenlaw.com/">MBOLaw</a> 
@@ -47,13 +46,13 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
 					<span class="navbar-toggler-icon"></span>
 				    </button>
-                        <a class="navbar-brand" href="https://www.margoowenlaw.com/"></a>
+                        <a class="navbar-brand" href="https://www.margoowenlaw.com/">MBOLaw</a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#Home">HOME <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about-us.html">ABOUT US</a>
@@ -108,96 +107,84 @@
            <div class="container-fluid">
                <div class="row">
                     <div class="col-lg-12">  
-                        <img src="images/banner-legal2.jpg" class="img-fluid">
+                        <img src="images/beach-banner.jpg" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <section id="practice-areas">
-        <div class="container-fluid content-row">
-            <div class="row practice-area-cards card-group page-frame">
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 practice-area-frame">
+                <div class="col mb-4">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="practice-area-header  text-center">ESTATE PLANNING</h3>
+                            <h6 class="text-center">ESTATE PLANNING</h6>
                         </div>
                         <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/estate_planning1.jpg" alt="Estate Planning">
-                            <p class="practice-area-text">Estate Planning is critical to protecting you andd you family. </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="estate-planning.html">Read More</button>
+                            <a href="estate-planning.html">
+                                <img class="practice-area-images img-responsive" src="images/estate_planning1.jpg" alt="Estate Planning">
+                            </a>
+                            <p class="card-text">Estate Planning is critical to protecting you andd you family. </p>
                         </div>
                     </div>
                 </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
+                <div class="col mb-4">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="practice-area-header text-center">FAMILY LAW</h3>
+                            <h6 class="text-center">FAMILY LAW</h6>
                         </div>
                         <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/family_law5.jpg" alt="Family Law">
-                            <p class="practice-area-text">Experienced and knowledgeable for resovling all type of Family Law Issues</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="family-law.html">Read More</button>
+                            <a href="family-law.html">
+                                <img class="practice-area-images img-responsive" src="images/family_law5.jpg" alt="Family Law">
+                            </a>
+                            <p class="card-text">Experienced and knowledgeable for resovling all type of Family Law Issues</p>
                         </div>
                     </div>
                 </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
+                <div class="col mb-4">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="practice-area-header  text-center">COLLABORATIVE LAW</h3>
+                            <h6 class="text-center">COLLABORATIVE LAW</h6>
                         </div>
                         <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/collaborative-law.jfif" alt="Collaborative Law">
-                            <p class="practice-area-text">Experienced litigator that always puts the interest of her client first.</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="collaborative-law.html">Read More</button>
+                            <a href="collaborative-law.html">
+                                <img class="practice-area-images img-responsive" src="images/collaborative-law.jfif" alt="Collaborative Law">
+                            </a>
+                            <p class="card-text">Experienced litigator that always puts the interest of her client first.</p> 
                         </div>
                     </div>
                 </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
+                <div class="col mb-4">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="practice-area-header  text-center">LGBTQ+</h3>
-                        </div>
+                       <div class="card-header">
+                            <h6 class="text-center">LGBTQ+</h6>
+                        </div> 
                         <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/same_sex2.jpg" alt="LGBTQ+">
-                            <p class="practice-area-text">Experienced with resolving issues associated with Same Sex Couples and helping LGBTQ+ community</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="lbgtq.html">Read More</button>
+                            <a href="lbgtq.html">
+                              <img class="practice-area-images img-responsive" src="images/same_sex2.jpg" alt="LGBTQ+">
+                            </a>
+                            <p class="card-text">Experienced with resolving issues associated with Same Sex Couples and helping LGBTQ+ community</p>
                         </div>
                     </div>
                 </div>
-                <div class="practice-area-column col-lg-equal col-md-equal col-sm-equal 
-                col-xs-equal">
+                <div class="col mb-4">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="practice-area-header  text-center">GENERAL LEGAL SERVICES</h3>
+                            <h6 class="text-center">GENERAL LEGAL SERVICES</h6>
                         </div>
                         <div class="card-body">
-                            <img class="practice-area-images img-responsive" src="images/notary.jpg" alt="General Legal Services">
-                            <p class="practice-area-text">Experienced with issues associated with Same Sex Couples</p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-lg btn-block btn-dark" type="button" href="general-legal.html">Read More</button>
+                            <a href="general-legal.html">
+                              <img class="practice-area-images img-responsive" src="images/notary.jpg" alt="General Legal Services">
+                            </a>
+                            <p class="card-text">Provide other legaal services including Notary services both in-office and mobile.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
 
     <section id="testimonials">
